@@ -2,7 +2,7 @@ package com.common;
 
 public class Person{
 	private int id;
-	private String name;
+	private String chineseName;
 	private int age;
 	public int getId() {
 		return id;
@@ -10,11 +10,12 @@ public class Person{
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	
+	public String getChineseName() {
+		return chineseName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setChineseName(String chineseName) {
+		this.chineseName = chineseName;
 	}
 	public int getAge() {
 		return age;
