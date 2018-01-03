@@ -1,9 +1,13 @@
 package com.common;
 
+import java.util.Date;
+
 public class Person{
 	private int id;
 	private String chineseName;
 	private int age;
+	private String name;
+	private Date birthday;
 	public int getId() {
 		return id;
 	}
@@ -17,12 +21,5 @@ public class Person{
 	public void setChineseName(String chineseName) {
 		this.chineseName = chineseName;
 	}
-	public int getAge() {
-		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
-	
 	
 }
