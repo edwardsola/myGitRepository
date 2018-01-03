@@ -1,3 +1,5 @@
+package com.common;
+
 public class Term{
 	private Long id;
 	private String termName;
