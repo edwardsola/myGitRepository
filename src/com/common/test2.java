@@ -1,5 +1,7 @@
-public class test{
-  public static main(args[]){
-    System.out.printlb("测试一下是否正确！");
+package com.common;
+
+public class test2{
+  public static void main(String[] args){
+    System.out.println("测试一下是否正确！");
   }
 }
